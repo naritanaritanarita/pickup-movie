@@ -104,7 +104,7 @@
     <div class="w-full flex justify-center">
         <div class="w-[1100px] max-w-full min-h-[300px]">
             @if(count($movies) > 0)
-                <div class="grid grid-cols-4 sm:grid-cols-5 gap-1.5 sm:gap-3 md:gap-5 w-full" id="movie-grid">
+                <div class="grid grid-cols-3 sm:grid-cols-5 gap-1.5 sm:gap-3 md:gap-5 w-full" id="movie-grid">
                     @foreach ($movies as $movie)
                         @if($movie['poster_path'])
                             <div class="relative transition-transform duration-200 cursor-pointer hover:scale-105 movie-item" data-id="{{ $movie['id'] }}">
