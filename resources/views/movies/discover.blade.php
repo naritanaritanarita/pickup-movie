@@ -48,6 +48,17 @@
         </picture>
     </div>
 
+    <!-- ツールリンク -->
+    <div class="mb-5 flex justify-center gap-3">
+        <a href="/todo" class="inline-flex items-center gap-1.5 py-1.5 px-3 bg-movie-panel rounded text-movie-light text-xs transition-colors hover:bg-movie-panel-hover">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h6a1 1 0 100-2H7zm0 4a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd" />
+            </svg>
+            TODO管理
+        </a>
+    </div>
+
     <div class="w-full flex justify-center mb-7">
         <div class="w-[800px] max-w-full min-h-[220px]">
             <div class="block w-full">

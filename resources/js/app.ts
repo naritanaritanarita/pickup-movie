@@ -1,6 +1,7 @@
 import './bootstrap';
 import { MovieList } from './components/movieList';
 import { MovieCarousel } from './components/movieCarousel';
+import { TodoList } from './components/todoList';
 
 // DOMのロード完了時に実行
 document.addEventListener('DOMContentLoaded', () => {
@@ -28,5 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const carouselElements = document.querySelectorAll('.relative.overflow-hidden');
   if (carouselElements.length > 0) {
     new MovieCarousel();
+  }
+
+  // TODO機能の初期化（todo.blade.php用）
+  const todoAppElement = document.getElementById('todo-app');
+  if (todoAppElement) {
+    new TodoList();
   }
 });

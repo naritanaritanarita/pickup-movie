@@ -9,3 +9,4 @@ Route::get('/load-more', [MovieController::class, 'loadMore']);
 Route::get('/movies/{id}', [MovieController::class, 'show'])->where('id', '[0-9]+');
 Route::view('/terms', 'movies.terms');
 Route::view('/privacy', 'movies.privacy');
+Route::view('/todo', 'tools.todo');
