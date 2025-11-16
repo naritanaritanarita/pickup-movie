@@ -1,6 +1,7 @@
 import './bootstrap';
 import { MovieList } from './components/movieList';
 import { MovieCarousel } from './components/movieCarousel';
+import { Calculator } from './components/calculator';
 
 // DOMのロード完了時に実行
 document.addEventListener('DOMContentLoaded', () => {
@@ -28,5 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const carouselElements = document.querySelectorAll('.relative.overflow-hidden');
   if (carouselElements.length > 0) {
     new MovieCarousel();
+  }
+
+  // 電卓機能の初期化（calculator.blade.php用）
+  const calculatorElement = document.getElementById('calculator');
+  if (calculatorElement) {
+    new Calculator();
   }
 });

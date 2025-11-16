@@ -48,6 +48,12 @@
         </picture>
     </div>
 
+    <div class="w-full flex justify-center mb-3">
+        <a href="/calculator" class="text-sm text-movie-light hover:text-white transition-colors bg-movie-panel px-4 py-2 rounded-lg hover:bg-movie-panel-hover">
+            電卓ツール
+        </a>
+    </div>
+
     <div class="w-full flex justify-center mb-7">
         <div class="w-[800px] max-w-full min-h-[220px]">
             <div class="block w-full">
